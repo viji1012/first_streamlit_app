@@ -22,7 +22,7 @@ streamlit.write('The user entered ', fruit_choice)
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
-streamlit.dataframe("file_streamlit_app/requirements.txt")
+streamlit.dataframe("https://github.com/viji1012/first_streamlit_app/blob/main/requirements.txt")
 
 
 
